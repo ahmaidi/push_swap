@@ -6,7 +6,7 @@
 /*   By: ahmaidi <ahmaidi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/07 16:36:35 by ahmaidi           #+#    #+#             */
-/*   Updated: 2022/03/18 15:47:18 by ahmaidi          ###   ########.fr       */
+/*   Updated: 2022/03/16 21:57:31 by ahmaidi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ static	int	min_list(t_list	**a, int i)
 	return (position);
 }
 
-static void	sort_and_push(t_list **a, t_list **b, int size)
+static void	name(t_list **a, t_list **b, int size)
 {
 	sorted_3(a, size - 3);
 	while (*b)
@@ -61,5 +61,5 @@ void	ft_small_sorted(t_list **a)
 		if (is_sorted(a))
 			break ;
 	}
-	sort_and_push(a, &b, size);
+	name(a, &b, size);
 }

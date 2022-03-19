@@ -6,7 +6,7 @@
 /*   By: ahmaidi <ahmaidi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/24 13:34:48 by ahmaidi           #+#    #+#             */
-/*   Updated: 2022/03/16 23:04:36 by ahmaidi          ###   ########.fr       */
+/*   Updated: 2022/03/19 13:52:58 by ahmaidi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ static int	is_deplicate(char	**s)
 	i = 0;
 	while (s[i])
 	{
-		j = i + 1;
+		j = 0;
 		while (s[j])
 		{
 			z = zero_after(s[j]);
